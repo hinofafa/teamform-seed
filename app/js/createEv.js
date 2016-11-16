@@ -57,7 +57,7 @@ angular.module('teamform-member-app', ['firebase'])
 			// Enable the UI when the data is successfully loaded and synchornized
 			$('#admin_page_controller').show();
 			//$scope.createEvent();
-			$scope.createTeam("haha");
+			//$scope.createTeam("haha");
 		})
 		.catch(function(error) {
 			// Database connection error handling...
